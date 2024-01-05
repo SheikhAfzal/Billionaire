@@ -1,0 +1,15 @@
+// Sample array of names
+var names = ["John", "Jane", "Bob", "Alice", "Jack"];
+
+// Loop over the array
+for (var i = 0; i < names.length; i++) {
+  // Get the current name
+  var currentName = names[i];
+
+  // Check if the name starts with 'J' or 'j'
+  if (currentName.charAt(0).toLowerCase() === 'j') {
+    console.log("Goodbye " + currentName);
+  } else {
+    console.log("Hello " + currentName);
+  }
+}
